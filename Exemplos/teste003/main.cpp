@@ -16,6 +16,7 @@
  *--------------------------------------------------------------
 */
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -24,6 +25,13 @@ int main()
     cout << "+---------------------------------------------------------------------+" << endl;
     cout << "| Exemplo 003: Herança, Hierarquia de Classes, Ponteiros e Iteradores |" << endl;
     cout << "+---------------------------------------------------------------------+" << endl << endl;
+
+    std::vector<char> vect;
+    vect.push_back( 'a' ); vect.push_back( 'b' );
+
+    for( auto &it : vect ) {
+        std::cout << it << '\n';
+    }
 
     return 0;
 }
