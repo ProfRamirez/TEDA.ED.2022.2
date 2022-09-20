@@ -13,3 +13,43 @@
 1663264080 e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste003\include\t_pessoa.h
 	<string>
 
+1663631450 source:d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\src\t_aluno.cpp
+	"t_Aluno.h"
+	<iostream>
+
+1663344916 d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\include\t_aluno.h
+	"t_Pessoa.h"
+	<string>
+
+1663344916 d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\include\t_pessoa.h
+	<string>
+
+1663345022 source:d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\src\t_pessoa.cpp
+	"t_Pessoa.h"
+	<iostream>
+	<string>
+
+1663633398 source:d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\main.cpp
+	<iostream>
+	<string>
+	"t_Aluno.h"
+	"t_Professor.h"
+	"t_Curso.h"
+
+1663631262 source:d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\src\t_professor.cpp
+	"t_Professor.h"
+	<iostream>
+	<string>
+
+1663630500 d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\include\t_professor.h
+	"t_Pessoa.h"
+	<string>
+
+1663633466 source:d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\src\t_curso.cpp
+	"t_Curso.h"
+	<iostream>
+	<string>
+
+1663633334 d:\ensino\tópicos\ted.ed.20222.2\teda.ed.2022.2\exemplos\teste003\include\t_curso.h
+	<string>
+

@@ -35,10 +35,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/t_Aluno.h" />
+		<Unit filename="include/t_Curso.h" />
 		<Unit filename="include/t_Pessoa.h" />
+		<Unit filename="include/t_Professor.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/t_Aluno.cpp" />
+		<Unit filename="src/t_Curso.cpp" />
 		<Unit filename="src/t_Pessoa.cpp" />
+		<Unit filename="src/t_Professor.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
