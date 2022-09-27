@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1664307712 source:c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\main.cpp
+	<iostream>
+	"t_Dado.h"
+	"t_Lista.h"
+
+1664303340 source:c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\src\t_dado.cpp
+	"t_Dado.h"
+
+1664307654 c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\include\t_dado.h
+	<iostream>
+
+1664306654 source:c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\src\t_no.cpp
+	"t_No.h"
+
+1664306776 c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\include\t_no.h
+	"t_Dado.h"
+
+1664307519 c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\include\t_lista.h
+	"t_No.h"
+
+1664307261 source:c:\users\aluna\documents\teda.ed.2022.2\exemplos\teste005\src\t_lista.cpp
+	"t_Lista.h"
+	<iostream>
+
+1664310809 source:e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\main.cpp
+	<iostream>
+	"t_Dado.h"
+	"t_Lista.h"
+
+1664310809 e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\include\t_dado.h
+	<iostream>
+
+1664311104 e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\include\t_lista.h
+	"t_No.h"
+
+1664311301 e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\include\t_no.h
+	"t_Dado.h"
+
+1664311104 source:e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\src\t_dado.cpp
+	"t_Dado.h"
+
+1664310809 source:e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\src\t_lista.cpp
+	"t_Lista.h"
+	<iostream>
+
+1664310809 source:e:\milton\ensino\estrutura de dados e algoritmos\teda.ed.2022.2\exemplos\teste005_listasimples\teste005\src\t_no.cpp
+	"t_No.h"
+

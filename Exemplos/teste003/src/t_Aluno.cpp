@@ -9,13 +9,14 @@
  *   Semana 03  : Introdução a linguagem C/C++
  *   Exemplo 003: Herança, Hierarquia de Classes e a 1a solução para relacionamento 1-N
  *
- *   Módulo: definição da Classe ALUNO
+ *   Módulo: Definição da Classe ALUNO
  *   Autor: Prof. Milton R Ramirez (milton@matematica.ufrj.br)
  *   Data criação  : 15 de setembro de 2022
  *   Data alteração: 15 de setembro de 2022
  *
  *--------------------------------------------------------------
-*/#include "t_Aluno.h"
+*/
+#include "t_Aluno.h"
 #include <iostream>
 
 t_Aluno::t_Aluno()
