@@ -221,7 +221,7 @@ void PreencheUsandoPilha(int lin, int col, char marca)
     if ( c != '1' && c != marca )
     {
         pnt.x = col; pnt.y = lin;
-        cout << "[" << pnt.x << ", " << pnt.y << "]" << endl;
+        //cout << "[" << pnt.x << ", " << pnt.y << "]" << endl;
         PushL(pnt);
     }
 
@@ -229,6 +229,7 @@ void PreencheUsandoPilha(int lin, int col, char marca)
     {
         pnt = PopL();
         lin = pnt.y; col = pnt.x;
+        //cout << "[" << pnt.x << ", " << pnt.y << "]" << endl;
         linha[lin][col] = marca;
         c = linha[lin-1][col];
         if ( c != '1' && c != marca ) { pnt.y = lin-1; pnt.x = col; PushL(pnt); }
@@ -246,7 +247,7 @@ void Testa_Pilha(void)
     ifstream arq_com_regiao_a_ser_preenchida; // arquivo que contem a matriz de pontos
     int num_linhas_matriz_pontos;
 
-    arq_com_regiao_a_ser_preenchida.open("matriz_pontos_regiao.txt");
+    arq_com_regiao_a_ser_preenchida.open("matriz_pontos_regiao 2.txt");
     int i=0; // conta numero de linhas da matriz. Todas as linhas devem começar e terminar por um caracter '1'
     while ( !arq_com_regiao_a_ser_preenchida.eof() )
         getline(arq_com_regiao_a_ser_preenchida, linha[i++]);
@@ -256,10 +257,10 @@ void Testa_Pilha(void)
 
     for(int i = 0; i < num_linhas_matriz_pontos; i++ )
         cout << linha[i] << endl;
-    PreencheUsandoPilha(3,2,'@'); // tem que ser passado as coordenadas de um ponto interior da figura.
+    PreencheUsandoPilha(1,1,'@'); // tem que ser passado as coordenadas de um ponto interior da figura.
     for(int i = 0; i < num_linhas_matriz_pontos; i++ )
         cout << linha[i] << endl;
-    PreencheUsandoPilha(3,2,'-');
+    //PreencheUsandoPilha(3,2,'-');
     for(int i = 0; i < num_linhas_matriz_pontos; i++ )
         cout << linha[i] << endl;
 
